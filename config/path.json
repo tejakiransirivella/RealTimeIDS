@@ -1,0 +1,9 @@
+{
+  "project_path": "/home/tejakiran/RealTimeIDS",
+  "build_path": "/build",
+  "model_path": "/models",
+  "data_path": "/data",
+  "data": "train.csv",
+  "model": "tree.model",
+  "source": "decision_tree.cpython-312-x86_64-linux-gnu.so"
+}
