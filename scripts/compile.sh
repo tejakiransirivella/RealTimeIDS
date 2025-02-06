@@ -1,4 +1,4 @@
-SCRIPT_DIR=$(dirname "$(realpath "$0")")
+SCRIPT_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 PROJECT_ROOT=$(dirname "$SCRIPT_DIR")
 echo "Project root: $PROJECT_ROOT"
 SRC_PATH="$PROJECT_ROOT/src/dt"

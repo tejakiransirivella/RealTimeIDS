@@ -1,9 +1,5 @@
-SCRIPT_DIR=$(dirname "$(realpath "$0")")
+SCRIPT_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 PROJECT_ROOT=$(dirname "$SCRIPT_DIR")
-
-echo "Installing dependencies..."
-pip3 install -r $SCRIPT_DIR/requirements.txt
-echo "Dependencies installed."
 
 echo "Project root: $PROJECT_ROOT"
 
