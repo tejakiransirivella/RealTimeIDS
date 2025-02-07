@@ -84,7 +84,7 @@ class FlowSession(DefaultSession):
             print("processing {} flows".format(len(flows)))
             start=time.time()
             predictions=detect_intrusion(data)
-            print("Time taken for prediction:",time.time()-start)
+            # print("Time taken for prediction:",time.time()-start)
             for i in range(len(predictions)):
                 flow=flows[i]
                 prediction=predictions[i]

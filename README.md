@@ -71,4 +71,12 @@ docs/index.html
 
 Simply navigate to the `docs/` folder and open `index.html` in any web browser to explore the full documentation.
 
+## 🎥 Demo 
+
+Watch the project in action! Check out the demo video:
+  
+[![Real Time IDS Demo](https://img.youtube.com/vi/WdYylw39tjM/0.jpg)](https://www.youtube.com/watch?v=WdYylw39tjM)  
+
+Click the image or [this link](https://www.youtube.com/watch?v=WdYylw39tjM) to watch the demo.
+
 
